@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html class=".bg-success-subtle" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div>
+<body style="background-color: blanchedalmond;">
+   
+  <h1 style="text-align: center;">Clothing Inventory</h1>
+
+  <h2>Add Clothing Item:</h2></div>
+  <form id="addForm">
+    <input type="text" id="name" placeholder="Full-Name" required><br>
+    <input type="text" id="type" placeholder="Type" required><br>
+    <input type="number" id="quantity" placeholder="Quantity" required>
+
+    <button type="submit">Add</button>
+  </form>
+
+  <h2>Clothing Items</h2>
+  <table id="clothingTable">
+   <tr>
+      <th>Name</th>
+      <th>Quantity</th>
+      <th>Style</th>
+      <th>Actions</th>
+    </tr>
+  </table>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="app.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </div>
+</body>
+</html>
